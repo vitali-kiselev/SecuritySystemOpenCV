@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import telebot
 
-bot = telebot.TeleBot('5380173958:AAEd9prlHbDWI5tgrgSGFUVv_DK0OKAypzs')
+bot = telebot.TeleBot('TOKEN')
 chat_id = 478653567
 face = cv2.CascadeClassifier('haarcascade_frontalface_alt2.xml')
 
