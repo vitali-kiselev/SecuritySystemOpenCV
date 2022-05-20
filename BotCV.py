@@ -1,7 +1,7 @@
 import telebot
 
-bot = telebot.TeleBot('5380173958:AAEd9prlHbDWI5tgrgSGFUVv_DK0OKAypzs')
-chat_id = 478653567
+bot = telebot.TeleBot('TOKEN')
+chat_id = 
 
 
 @bot.message_handler(commands=['start'])
